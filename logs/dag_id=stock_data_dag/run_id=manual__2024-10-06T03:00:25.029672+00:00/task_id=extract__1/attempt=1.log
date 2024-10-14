@@ -1,0 +1,50 @@
+[2024-10-06T03:00:31.377+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-06T03:00:31.446+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_dag.extract__1 manual__2024-10-06T03:00:25.029672+00:00 [queued]>
+[2024-10-06T03:00:31.482+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_data_dag.extract__1 manual__2024-10-06T03:00:25.029672+00:00 [queued]>
+[2024-10-06T03:00:31.483+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-06T03:00:31.535+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract__1> on 2024-10-06 03:00:25.029672+00:00
+[2024-10-06T03:00:31.563+0000] {standard_task_runner.py:72} INFO - Started process 405 to run task
+[2024-10-06T03:00:31.605+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_data_dag', 'extract__1', 'manual__2024-10-06T03:00:25.029672+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/stock_data_dag.py', '--cfg-path', '/tmp/tmp4ulmp8pc']
+[2024-10-06T03:00:31.639+0000] {standard_task_runner.py:105} INFO - Job 64: Subtask extract__1
+[2024-10-06T03:00:31.921+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_data_dag.extract__1 manual__2024-10-06T03:00:25.029672+00:00 [running]> on host 2a293f7fa826
+[2024-10-06T03:00:32.266+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_data_dag' AIRFLOW_CTX_TASK_ID='extract__1' AIRFLOW_CTX_EXECUTION_DATE='2024-10-06T03:00:25.029672+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-06T03:00:25.029672+00:00'
+[2024-10-06T03:00:32.273+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-06T03:00:32.290+0000] {logging_mixin.py:190} INFO - Start extracting from VND
+[2024-10-06T03:00:32.337+0000] {vnd.py:32} INFO - Start downloading data symbols ['AAA'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:32.529+0000] {vnd.py:55} ERROR - Data of the symbol AAA is not available
+[2024-10-06T03:00:32.535+0000] {logging_mixin.py:190} INFO - AAA not found
+[2024-10-06T03:00:32.535+0000] {vnd.py:32} INFO - Start downloading data symbols ['AAAI'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:32.696+0000] {vnd.py:55} ERROR - Data of the symbol AAAI is not available
+[2024-10-06T03:00:32.706+0000] {logging_mixin.py:190} INFO - AAAI not found
+[2024-10-06T03:00:32.707+0000] {vnd.py:32} INFO - Start downloading data symbols ['AACORP'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:32.852+0000] {vnd.py:55} ERROR - Data of the symbol AACORP is not available
+[2024-10-06T03:00:32.857+0000] {logging_mixin.py:190} INFO - AACORP not found
+[2024-10-06T03:00:32.858+0000] {vnd.py:32} INFO - Start downloading data symbols ['AAM'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:32.998+0000] {vnd.py:55} ERROR - Data of the symbol AAM is not available
+[2024-10-06T03:00:33.000+0000] {logging_mixin.py:190} INFO - AAM not found
+[2024-10-06T03:00:33.005+0000] {vnd.py:32} INFO - Start downloading data symbols ['AAS'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:33.149+0000] {vnd.py:55} ERROR - Data of the symbol AAS is not available
+[2024-10-06T03:00:33.154+0000] {logging_mixin.py:190} INFO - AAS not found
+[2024-10-06T03:00:33.157+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABB'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:33.311+0000] {vnd.py:55} ERROR - Data of the symbol ABB is not available
+[2024-10-06T03:00:33.318+0000] {logging_mixin.py:190} INFO - ABB not found
+[2024-10-06T03:00:33.324+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABC'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:33.461+0000] {vnd.py:55} ERROR - Data of the symbol ABC is not available
+[2024-10-06T03:00:33.464+0000] {logging_mixin.py:190} INFO - ABC not found
+[2024-10-06T03:00:33.465+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABF'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:33.615+0000] {vnd.py:55} ERROR - Data of the symbol ABF is not available
+[2024-10-06T03:00:33.616+0000] {logging_mixin.py:190} INFO - ABF not found
+[2024-10-06T03:00:33.620+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABI'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:33.759+0000] {vnd.py:55} ERROR - Data of the symbol ABI is not available
+[2024-10-06T03:00:33.763+0000] {logging_mixin.py:190} INFO - ABI not found
+[2024-10-06T03:00:33.764+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABS'] from VNDIRECT, start: 06/10/2024, end: 06/10/2024!
+[2024-10-06T03:00:33.898+0000] {vnd.py:55} ERROR - Data of the symbol ABS is not available
+[2024-10-06T03:00:33.901+0000] {logging_mixin.py:190} INFO - ABS not found
+[2024-10-06T03:00:33.902+0000] {logging_mixin.py:190} INFO - Extracting successfully
+[2024-10-06T03:00:33.902+0000] {python.py:240} INFO - Done. Returned value was: Empty DataFrame
+Columns: []
+Index: []
+[2024-10-06T03:00:34.026+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-06T03:00:34.029+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_data_dag, task_id=extract__1, run_id=manual__2024-10-06T03:00:25.029672+00:00, execution_date=20241006T030025, start_date=20241006T030031, end_date=20241006T030034
+[2024-10-06T03:00:34.077+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-06T03:00:34.116+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

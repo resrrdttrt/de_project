@@ -1,0 +1,80 @@
+[2024-10-09T02:28:06.461+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-09T02:28:06.510+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_dag.extract__1 scheduled__2024-10-08T00:00:00+00:00 [queued]>
+[2024-10-09T02:28:06.545+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_data_dag.extract__1 scheduled__2024-10-08T00:00:00+00:00 [queued]>
+[2024-10-09T02:28:06.545+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-09T02:28:06.585+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract__1> on 2024-10-08 00:00:00+00:00
+[2024-10-09T02:28:06.631+0000] {standard_task_runner.py:72} INFO - Started process 823 to run task
+[2024-10-09T02:28:06.664+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_data_dag', 'extract__1', 'scheduled__2024-10-08T00:00:00+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/stock_data_dag.py', '--cfg-path', '/tmp/tmpt0qcf19d']
+[2024-10-09T02:28:06.684+0000] {standard_task_runner.py:105} INFO - Job 88: Subtask extract__1
+[2024-10-09T02:28:06.867+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_data_dag.extract__1 scheduled__2024-10-08T00:00:00+00:00 [running]> on host 2a293f7fa826
+[2024-10-09T02:28:07.256+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_data_dag' AIRFLOW_CTX_TASK_ID='extract__1' AIRFLOW_CTX_EXECUTION_DATE='2024-10-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-08T00:00:00+00:00'
+[2024-10-09T02:28:07.260+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-09T02:28:07.269+0000] {logging_mixin.py:190} INFO - Start extracting from VND
+[2024-10-09T02:28:07.296+0000] {vnd.py:32} INFO - Start downloading data symbols ['AAA'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:07.497+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/vnd.py:77: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-09T02:28:07.517+0000] {vnd.py:85} INFO - data AAA from 2024-10-09 to 2024-10-09 have already cloned!
+[2024-10-09T02:28:07.554+0000] {logging_mixin.py:190} INFO - Add AAA to data
+[2024-10-09T02:28:07.555+0000] {vnd.py:32} INFO - Start downloading data symbols ['AAAI'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:07.718+0000] {vnd.py:55} ERROR - Data of the symbol AAAI is not available
+[2024-10-09T02:28:07.728+0000] {logging_mixin.py:190} INFO - AAAI not found
+[2024-10-09T02:28:07.728+0000] {vnd.py:32} INFO - Start downloading data symbols ['AACORP'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:07.880+0000] {vnd.py:55} ERROR - Data of the symbol AACORP is not available
+[2024-10-09T02:28:07.882+0000] {logging_mixin.py:190} INFO - AACORP not found
+[2024-10-09T02:28:07.886+0000] {vnd.py:32} INFO - Start downloading data symbols ['AAM'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:08.063+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/vnd.py:77: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-09T02:28:08.076+0000] {vnd.py:85} INFO - data AAM from 2024-10-09 to 2024-10-09 have already cloned!
+[2024-10-09T02:28:08.141+0000] {logging_mixin.py:190} INFO - Add AAM to data
+[2024-10-09T02:28:08.147+0000] {vnd.py:32} INFO - Start downloading data symbols ['AAS'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:08.306+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/vnd.py:77: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-09T02:28:08.329+0000] {vnd.py:85} INFO - data AAS from 2024-10-09 to 2024-10-09 have already cloned!
+[2024-10-09T02:28:08.436+0000] {logging_mixin.py:190} INFO - Add AAS to data
+[2024-10-09T02:28:08.437+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABB'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:08.623+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/vnd.py:77: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-09T02:28:08.656+0000] {vnd.py:85} INFO - data ABB from 2024-10-09 to 2024-10-09 have already cloned!
+[2024-10-09T02:28:08.726+0000] {logging_mixin.py:190} INFO - Add ABB to data
+[2024-10-09T02:28:08.727+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABC'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:08.892+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/vnd.py:77: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-09T02:28:08.914+0000] {vnd.py:85} INFO - data ABC from 2024-10-09 to 2024-10-09 have already cloned!
+[2024-10-09T02:28:08.973+0000] {logging_mixin.py:190} INFO - Add ABC to data
+[2024-10-09T02:28:08.974+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABF'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:09.122+0000] {vnd.py:55} ERROR - Data of the symbol ABF is not available
+[2024-10-09T02:28:09.127+0000] {logging_mixin.py:190} INFO - ABF not found
+[2024-10-09T02:28:09.128+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABI'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:09.289+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/vnd.py:77: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-09T02:28:09.312+0000] {vnd.py:85} INFO - data ABI from 2024-10-09 to 2024-10-09 have already cloned!
+[2024-10-09T02:28:09.367+0000] {logging_mixin.py:190} INFO - Add ABI to data
+[2024-10-09T02:28:09.373+0000] {vnd.py:32} INFO - Start downloading data symbols ['ABS'] from VNDIRECT, start: 09/10/2024, end: 09/10/2024!
+[2024-10-09T02:28:09.553+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/vnd.py:77: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-09T02:28:09.575+0000] {vnd.py:85} INFO - data ABS from 2024-10-09 to 2024-10-09 have already cloned!
+[2024-10-09T02:28:09.635+0000] {logging_mixin.py:190} INFO - Add ABS to data
+[2024-10-09T02:28:09.636+0000] {logging_mixin.py:190} INFO - Extracting successfully
+[2024-10-09T02:28:09.636+0000] {python.py:240} INFO - Done. Returned value was: Attributes Symbols code   high    low  ...  close  adjust  volume_match  value_match
+date                                   ...                                          
+2024-10-09     AAA  AAA   9.45   9.44  ...   9.45    9.45       36200.0  341000000.0
+2024-10-09     AAM  AAM   7.45   7.45  ...   7.45    7.45         100.0          0.0
+2024-10-09     AAS  AAS   7.40   7.30  ...   7.30    7.30       17600.0  128490000.0
+2024-10-09     ABB  ABB   7.90   7.80  ...   7.90    7.90        1500.0   11830000.0
+2024-10-09     ABC  ABC  10.60  10.40  ...  10.50   10.50        2600.0   27280000.0
+2024-10-09     ABI  ABI  24.70  24.70  ...  24.70   24.70         300.0    7410000.0
+2024-10-09     ABS  ABS   4.19   4.19  ...   4.19    4.19         200.0          0.0
+
+[7 rows x 9 columns]
+[2024-10-09T02:28:09.930+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-09T02:28:09.939+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_data_dag, task_id=extract__1, run_id=scheduled__2024-10-08T00:00:00+00:00, execution_date=20241008T000000, start_date=20241009T022806, end_date=20241009T022809
+[2024-10-09T02:28:10.049+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-09T02:28:10.181+0000] {taskinstance.py:3900} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2024-10-09T02:28:10.187+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

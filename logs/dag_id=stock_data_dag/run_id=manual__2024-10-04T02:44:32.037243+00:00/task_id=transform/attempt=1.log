@@ -1,0 +1,28 @@
+[2024-10-04T02:45:39.065+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-04T02:45:39.121+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_dag.transform manual__2024-10-04T02:44:32.037243+00:00 [queued]>
+[2024-10-04T02:45:39.144+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_data_dag.transform manual__2024-10-04T02:44:32.037243+00:00 [queued]>
+[2024-10-04T02:45:39.145+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-04T02:45:39.175+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2024-10-04 02:44:32.037243+00:00
+[2024-10-04T02:45:39.199+0000] {standard_task_runner.py:72} INFO - Started process 262 to run task
+[2024-10-04T02:45:39.215+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_data_dag', 'transform', 'manual__2024-10-04T02:44:32.037243+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmps5mg_if2']
+[2024-10-04T02:45:39.225+0000] {standard_task_runner.py:105} INFO - Job 34: Subtask transform
+[2024-10-04T02:45:39.345+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_data_dag.transform manual__2024-10-04T02:44:32.037243+00:00 [running]> on host 2a293f7fa826
+[2024-10-04T02:45:39.719+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_data_dag' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-10-04T02:44:32.037243+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-04T02:44:32.037243+00:00'
+[2024-10-04T02:45:39.724+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-04T02:45:39.728+0000] {logging_mixin.py:190} INFO - Start transforming
+[2024-10-04T02:45:39.735+0000] {logging_mixin.py:190} INFO - Transform successfully
+[2024-10-04T02:45:39.735+0000] {python.py:240} INFO - Done. Returned value was: Attributes       date code   high  ...  adjust  volume_match   value_match
+0          2024-10-04  AAA   9.54  ...    9.46      192300.0  1.823000e+09
+1          2024-10-04  AAM   7.26  ...    7.25        1900.0  1.300000e+07
+2          2024-10-04  AAS   7.50  ...    7.40       38846.0  2.874300e+08
+3          2024-10-04  ABB   8.10  ...    8.00       77878.0  6.226200e+08
+4          2024-10-04  ABC  10.70  ...   10.50        3051.0  3.190000e+07
+5          2024-10-04  ABI  24.30  ...   24.30         101.0  2.430000e+06
+6          2024-10-04  ABS   4.22  ...    4.20       29400.0  1.230000e+08
+
+[7 rows x 9 columns]
+[2024-10-04T02:45:39.824+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-04T02:45:39.826+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_data_dag, task_id=transform, run_id=manual__2024-10-04T02:44:32.037243+00:00, execution_date=20241004T024432, start_date=20241004T024539, end_date=20241004T024539
+[2024-10-04T02:45:39.870+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-04T02:45:39.923+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-04T02:45:39.926+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

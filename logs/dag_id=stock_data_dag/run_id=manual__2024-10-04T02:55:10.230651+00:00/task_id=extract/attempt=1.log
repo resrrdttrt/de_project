@@ -1,0 +1,110 @@
+[2024-10-04T02:55:13.603+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-04T02:55:13.647+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_data_dag.extract manual__2024-10-04T02:55:10.230651+00:00 [queued]>
+[2024-10-04T02:55:13.666+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_data_dag.extract manual__2024-10-04T02:55:10.230651+00:00 [queued]>
+[2024-10-04T02:55:13.667+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-04T02:55:13.702+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2024-10-04 02:55:10.230651+00:00
+[2024-10-04T02:55:13.718+0000] {standard_task_runner.py:72} INFO - Started process 393 to run task
+[2024-10-04T02:55:13.731+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_data_dag', 'extract', 'manual__2024-10-04T02:55:10.230651+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp52hd92dz']
+[2024-10-04T02:55:13.737+0000] {standard_task_runner.py:105} INFO - Job 36: Subtask extract
+[2024-10-04T02:55:13.889+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_data_dag.extract manual__2024-10-04T02:55:10.230651+00:00 [running]> on host 2a293f7fa826
+[2024-10-04T02:55:14.051+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_data_dag' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-10-04T02:55:10.230651+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-04T02:55:10.230651+00:00'
+[2024-10-04T02:55:14.058+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-04T02:55:14.062+0000] {logging_mixin.py:190} INFO - Start extracting
+[2024-10-04T02:55:14.067+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=172.17.0.1:9092 <connecting> [IPv4 ('172.17.0.1', 9092)]>: connecting to 172.17.0.1:9092 [('172.17.0.1', 9092) IPv4]
+[2024-10-04T02:55:14.068+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-10-04T02:55:14.069+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=172.17.0.1:9092 <connecting> [IPv4 ('172.17.0.1', 9092)]>: Connection complete.
+[2024-10-04T02:55:14.179+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-10-04T02:55:14.182+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-10-04T02:55:14.185+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-10-04T02:55:14.291+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-10-04T02:55:14.292+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-10-04T02:55:14.315+0000] {conn.py:380} INFO - <BrokerConnection node_id=0 host=instance-ubuntu-2204-minikube.asia-east1-c.c.modern-environs-436110-t9.internal:9092 <connecting> [IPv4 ('10.0.0.10', 9092)]>: connecting to instance-ubuntu-2204-minikube.asia-east1-c.c.modern-environs-436110-t9.internal:9092 [('10.0.0.10', 9092) IPv4]
+[2024-10-04T02:55:14.318+0000] {conn.py:1205} INFO - Probing node 0 broker version
+[2024-10-04T02:55:14.326+0000] {conn.py:410} INFO - <BrokerConnection node_id=0 host=instance-ubuntu-2204-minikube.asia-east1-c.c.modern-environs-436110-t9.internal:9092 <connecting> [IPv4 ('10.0.0.10', 9092)]>: Connection complete.
+[2024-10-04T02:55:14.327+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=172.17.0.1:9092 <connected> [IPv4 ('172.17.0.1', 9092)]>: Closing connection. 
+[2024-10-04T02:55:14.432+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-10-04T02:55:14.432+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-10-04T02:55:14.444+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=172.17.0.1:9092 <connecting> [IPv4 ('172.17.0.1', 9092)]>: connecting to 172.17.0.1:9092 [('172.17.0.1', 9092) IPv4]
+[2024-10-04T02:55:14.449+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-10-04T02:55:14.453+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=172.17.0.1:9092 <connecting> [IPv4 ('172.17.0.1', 9092)]>: Connection complete.
+[2024-10-04T02:55:14.565+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-10-04T02:55:14.566+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-10-04T02:55:14.601+0000] {cafe.py:35} INFO - Start downloading data symbols ['AAA'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:14.894+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/cafe.py:86: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-04T02:55:14.900+0000] {cafe.py:95} INFO - data AAA from 2024-10-04 to 2024-10-04 have already cloned!
+[2024-10-04T02:55:14.922+0000] {logging_mixin.py:190} INFO - Send message to Kafka
+[2024-10-04T02:55:14.924+0000] {logging_mixin.py:190} INFO - Add AAA to data
+[2024-10-04T02:55:14.925+0000] {cafe.py:35} INFO - Start downloading data symbols ['AAAI'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:14.929+0000] {conn.py:380} INFO - <BrokerConnection node_id=0 host=instance-ubuntu-2204-minikube.asia-east1-c.c.modern-environs-436110-t9.internal:9092 <connecting> [IPv4 ('10.0.0.10', 9092)]>: connecting to instance-ubuntu-2204-minikube.asia-east1-c.c.modern-environs-436110-t9.internal:9092 [('10.0.0.10', 9092) IPv4]
+[2024-10-04T02:55:14.931+0000] {conn.py:410} INFO - <BrokerConnection node_id=0 host=instance-ubuntu-2204-minikube.asia-east1-c.c.modern-environs-436110-t9.internal:9092 <connecting> [IPv4 ('10.0.0.10', 9092)]>: Connection complete.
+[2024-10-04T02:55:14.932+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=172.17.0.1:9092 <connected> [IPv4 ('172.17.0.1', 9092)]>: Closing connection. 
+[2024-10-04T02:55:15.065+0000] {cafe.py:60} ERROR - Data of the symbol AAAI is not available
+[2024-10-04T02:55:15.069+0000] {logging_mixin.py:190} INFO - AAAI not found
+[2024-10-04T02:55:15.070+0000] {cafe.py:35} INFO - Start downloading data symbols ['AACORP'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:15.205+0000] {cafe.py:60} ERROR - Data of the symbol AACORP is not available
+[2024-10-04T02:55:15.206+0000] {logging_mixin.py:190} INFO - AACORP not found
+[2024-10-04T02:55:15.206+0000] {cafe.py:35} INFO - Start downloading data symbols ['AAM'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:15.351+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/cafe.py:86: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-04T02:55:15.355+0000] {cafe.py:95} INFO - data AAM from 2024-10-04 to 2024-10-04 have already cloned!
+[2024-10-04T02:55:15.368+0000] {logging_mixin.py:190} INFO - Send message to Kafka
+[2024-10-04T02:55:15.372+0000] {logging_mixin.py:190} INFO - Add AAM to data
+[2024-10-04T02:55:15.373+0000] {cafe.py:35} INFO - Start downloading data symbols ['AAS'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:15.496+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/cafe.py:86: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-04T02:55:15.500+0000] {cafe.py:95} INFO - data AAS from 2024-10-04 to 2024-10-04 have already cloned!
+[2024-10-04T02:55:15.514+0000] {logging_mixin.py:190} INFO - Send message to Kafka
+[2024-10-04T02:55:15.517+0000] {logging_mixin.py:190} INFO - Add AAS to data
+[2024-10-04T02:55:15.518+0000] {cafe.py:35} INFO - Start downloading data symbols ['ABB'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:15.681+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/cafe.py:86: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-04T02:55:15.686+0000] {cafe.py:95} INFO - data ABB from 2024-10-04 to 2024-10-04 have already cloned!
+[2024-10-04T02:55:15.710+0000] {logging_mixin.py:190} INFO - Send message to Kafka
+[2024-10-04T02:55:15.713+0000] {logging_mixin.py:190} INFO - Add ABB to data
+[2024-10-04T02:55:15.716+0000] {cafe.py:35} INFO - Start downloading data symbols ['ABC'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:15.848+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/cafe.py:86: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-04T02:55:15.853+0000] {cafe.py:95} INFO - data ABC from 2024-10-04 to 2024-10-04 have already cloned!
+[2024-10-04T02:55:15.873+0000] {logging_mixin.py:190} INFO - Send message to Kafka
+[2024-10-04T02:55:15.874+0000] {logging_mixin.py:190} INFO - Add ABC to data
+[2024-10-04T02:55:15.877+0000] {cafe.py:35} INFO - Start downloading data symbols ['ABF'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:15.998+0000] {cafe.py:60} ERROR - Data of the symbol ABF is not available
+[2024-10-04T02:55:15.999+0000] {logging_mixin.py:190} INFO - ABF not found
+[2024-10-04T02:55:15.999+0000] {cafe.py:35} INFO - Start downloading data symbols ['ABI'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:16.133+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/cafe.py:86: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-04T02:55:16.137+0000] {cafe.py:95} INFO - data ABI from 2024-10-04 to 2024-10-04 have already cloned!
+[2024-10-04T02:55:16.151+0000] {logging_mixin.py:190} INFO - Send message to Kafka
+[2024-10-04T02:55:16.153+0000] {logging_mixin.py:190} INFO - Add ABI to data
+[2024-10-04T02:55:16.155+0000] {cafe.py:35} INFO - Start downloading data symbols ['ABS'] from CAFEF, start: 04/10/2024, end: 04/10/2024!
+[2024-10-04T02:55:16.286+0000] {warnings.py:109} WARNING - /opt/***/dags/../lib/stock/data/loader/cafe.py:86: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  stock_data.fillna(method='ffill', inplace=True)
+
+[2024-10-04T02:55:16.289+0000] {cafe.py:95} INFO - data ABS from 2024-10-04 to 2024-10-04 have already cloned!
+[2024-10-04T02:55:16.303+0000] {logging_mixin.py:190} INFO - Send message to Kafka
+[2024-10-04T02:55:16.304+0000] {logging_mixin.py:190} INFO - Add ABS to data
+[2024-10-04T02:55:16.305+0000] {logging_mixin.py:190} INFO - Extracting successfully
+[2024-10-04T02:55:16.306+0000] {conn.py:919} INFO - <BrokerConnection node_id=0 host=instance-ubuntu-2204-minikube.asia-east1-c.c.modern-environs-436110-t9.internal:9092 <connected> [IPv4 ('10.0.0.10', 9092)]>: Closing connection. 
+[2024-10-04T02:55:16.307+0000] {python.py:240} INFO - Done. Returned value was: Attributes Symbols code   high  ...  adjust  volume_match   value_match
+date                            ...                                    
+2024-10-04     AAA  AAA   9.54  ...    9.49      212300.0  2.013000e+09
+2024-10-04     AAM  AAM   7.26  ...    7.25        1900.0  1.300000e+07
+2024-10-04     AAS  AAS   7.50  ...    7.40       39846.0  2.948300e+08
+2024-10-04     ABB  ABB   8.10  ...    8.10       78080.0  6.242300e+08
+2024-10-04     ABC  ABC  10.70  ...   10.50        3251.0  3.400000e+07
+2024-10-04     ABI  ABI  24.30  ...   24.30         201.0  4.860000e+06
+2024-10-04     ABS  ABS   4.29  ...    4.29       39700.0  1.670000e+08
+
+[7 rows x 9 columns]
+[2024-10-04T02:55:16.382+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-04T02:55:16.383+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_data_dag, task_id=extract, run_id=manual__2024-10-04T02:55:10.230651+00:00, execution_date=20241004T025510, start_date=20241004T025513, end_date=20241004T025516
+[2024-10-04T02:55:16.448+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-04T02:55:16.503+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-04T02:55:16.506+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

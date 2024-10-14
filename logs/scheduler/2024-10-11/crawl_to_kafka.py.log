@@ -1,0 +1,616 @@
+[2024-10-11T00:00:31.350+0000] {processor.py:186} INFO - Started process (PID=64624) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:00:31.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:00:31.356+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:00:31.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:00:32.137+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:00:32.173+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:00:32] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:00:32.202+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:00:32] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:00:32.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.892 seconds
+[2024-10-11T00:01:02.563+0000] {processor.py:186} INFO - Started process (PID=64636) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:01:02.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:01:02.570+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:01:02.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:01:05.325+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:01:05.543+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:01:05] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:01:05.695+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:01:05] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:01:05.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 3.238 seconds
+[2024-10-11T00:01:36.144+0000] {processor.py:186} INFO - Started process (PID=64648) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:01:36.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:01:36.150+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:01:36.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:01:36.895+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:01:36.942+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:01:36] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:01:36.970+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:01:36] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:01:36.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.859 seconds
+[2024-10-11T00:02:07.400+0000] {processor.py:186} INFO - Started process (PID=64666) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:02:07.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:02:07.407+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:02:07.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:02:08.174+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:02:08.212+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:02:08] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:02:08.241+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:02:08] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:02:08.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.878 seconds
+[2024-10-11T00:02:38.710+0000] {processor.py:186} INFO - Started process (PID=64678) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:02:38.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:02:38.717+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:02:38.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:02:39.622+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:02:39.656+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:02:39] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:02:39.686+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:02:39] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:02:39.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.015 seconds
+[2024-10-11T00:03:10.270+0000] {processor.py:186} INFO - Started process (PID=64691) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:03:10.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:03:10.275+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:03:10.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:03:11.061+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:03:11.096+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:03:11] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:03:11.124+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:03:11] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:03:11.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.886 seconds
+[2024-10-11T00:03:41.618+0000] {processor.py:186} INFO - Started process (PID=64703) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:03:41.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:03:41.625+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:03:41.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:03:42.910+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:03:42.960+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:03:42] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:03:42.998+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:03:42] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:03:43.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.425 seconds
+[2024-10-11T00:04:13.099+0000] {processor.py:186} INFO - Started process (PID=64715) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:04:13.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:04:13.105+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:04:13.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:04:13.858+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:04:13.895+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:04:13] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:04:13.928+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:04:13] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:04:13.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.866 seconds
+[2024-10-11T00:04:44.548+0000] {processor.py:186} INFO - Started process (PID=64727) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:04:44.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:04:44.553+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:04:44.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:04:45.311+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:04:45.345+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:04:45] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:04:45.375+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:04:45] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:04:45.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.870 seconds
+[2024-10-11T00:05:16.049+0000] {processor.py:186} INFO - Started process (PID=64739) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:05:16.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:05:16.054+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:05:16.054+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:05:16.848+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:05:16.885+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:05:16] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:05:16.915+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:05:16] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:05:16.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.902 seconds
+[2024-10-11T00:05:47.440+0000] {processor.py:186} INFO - Started process (PID=64751) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:05:47.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:05:47.448+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:05:47.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:05:48.212+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:05:48.248+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:05:48] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:05:48.276+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:05:48] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:05:48.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.874 seconds
+[2024-10-11T00:06:18.801+0000] {processor.py:186} INFO - Started process (PID=64763) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:06:18.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:06:18.808+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:06:18.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:06:19.582+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:06:19.618+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:06:19] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:06:19.646+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:06:19] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:06:19.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.878 seconds
+[2024-10-11T00:06:50.323+0000] {processor.py:186} INFO - Started process (PID=64775) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:06:50.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:06:50.328+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:06:50.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:06:51.139+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:06:51.173+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:06:51] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:06:51.202+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:06:51] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:06:51.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.911 seconds
+[2024-10-11T00:07:21.738+0000] {processor.py:186} INFO - Started process (PID=64787) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:07:21.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:07:21.746+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:07:21.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:07:22.559+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:07:22.595+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:07:22] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:07:22.625+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:07:22] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:07:22.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.921 seconds
+[2024-10-11T00:07:53.111+0000] {processor.py:186} INFO - Started process (PID=64799) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:07:53.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:07:53.116+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:07:53.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:07:53.975+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:07:54.010+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:07:54] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:07:54.038+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:07:54] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:07:54.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.960 seconds
+[2024-10-11T00:08:24.556+0000] {processor.py:186} INFO - Started process (PID=64811) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:08:24.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:08:24.564+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:08:24.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:08:25.781+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:08:25.831+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:08:25] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:08:25.871+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:08:25] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:08:25.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.359 seconds
+[2024-10-11T00:08:56.003+0000] {processor.py:186} INFO - Started process (PID=64823) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:08:56.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:08:56.008+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:08:56.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:08:56.759+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:08:56.793+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:08:56] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:08:56.822+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:08:56] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:08:56.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.852 seconds
+[2024-10-11T00:09:27.513+0000] {processor.py:186} INFO - Started process (PID=64835) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:09:27.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:09:27.518+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:09:27.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:09:28.274+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:09:28.323+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:09:28] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:09:28.349+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:09:28] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:09:28.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.868 seconds
+[2024-10-11T00:09:58.875+0000] {processor.py:186} INFO - Started process (PID=64847) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:09:58.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:09:58.882+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:09:58.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:10:00.008+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:10:00.057+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:10:00] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:10:00.097+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:10:00] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:10:00.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.275 seconds
+[2024-10-11T00:10:30.414+0000] {processor.py:186} INFO - Started process (PID=64859) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:10:30.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:10:30.419+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:10:30.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:10:31.197+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:10:31.231+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:10:31] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:10:31.258+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:10:31] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:10:31.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.876 seconds
+[2024-10-11T00:11:02.148+0000] {processor.py:186} INFO - Started process (PID=64871) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:11:02.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:11:02.156+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:11:02.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:11:03.451+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:11:03.549+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:11:03] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:11:03.594+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:11:03] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:11:03.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.499 seconds
+[2024-10-11T00:11:34.183+0000] {processor.py:186} INFO - Started process (PID=64882) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:11:34.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:11:34.190+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:11:34.189+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:11:34.935+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:11:34.975+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:11:34] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:11:35.005+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:11:35] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:11:35.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.857 seconds
+[2024-10-11T00:12:05.539+0000] {processor.py:186} INFO - Started process (PID=64894) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:12:05.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:12:05.544+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:12:05.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:12:06.318+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:12:06.367+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:12:06] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:12:06.404+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:12:06] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:12:06.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.897 seconds
+[2024-10-11T00:12:36.964+0000] {processor.py:186} INFO - Started process (PID=64906) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:12:36.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:12:36.970+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:12:36.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:12:37.748+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:12:37.784+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:12:37] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:12:37.810+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:12:37] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:12:37.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.879 seconds
+[2024-10-11T00:13:07.899+0000] {processor.py:186} INFO - Started process (PID=64918) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:13:07.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:13:07.905+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:13:07.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:13:08.672+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:13:08.706+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:13:08] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:13:08.731+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:13:08] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:13:08.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.866 seconds
+[2024-10-11T00:13:39.157+0000] {processor.py:186} INFO - Started process (PID=64930) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:13:39.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:13:39.163+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:13:39.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:13:39.982+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:13:40.017+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:13:40] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:13:40.051+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:13:40] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:13:40.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.927 seconds
+[2024-10-11T00:14:10.394+0000] {processor.py:186} INFO - Started process (PID=64948) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:14:10.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:14:10.402+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:14:10.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:14:11.145+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:14:11.179+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:14:11] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:14:11.205+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:14:11] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:14:11.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.843 seconds
+[2024-10-11T00:14:41.674+0000] {processor.py:186} INFO - Started process (PID=64961) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:14:41.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:14:41.681+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:14:41.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:14:42.567+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:14:42.601+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:14:42] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:14:42.626+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:14:42] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:14:42.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.989 seconds
+[2024-10-11T00:15:12.926+0000] {processor.py:186} INFO - Started process (PID=64973) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:15:12.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:15:12.950+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:15:12.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:15:15.701+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:15:15.824+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:15:15] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:15:15.913+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:15:15] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:15:15.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 3.111 seconds
+[2024-10-11T00:15:46.358+0000] {processor.py:186} INFO - Started process (PID=64984) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:15:46.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:15:46.365+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:15:46.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:15:48.569+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:15:48.737+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:15:48] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:15:48.860+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:15:48] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:15:48.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.619 seconds
+[2024-10-11T00:16:19.297+0000] {processor.py:186} INFO - Started process (PID=64997) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:16:19.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:16:19.302+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:16:19.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:16:20.129+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:16:20.165+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:16:20] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:16:20.195+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:16:20] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:16:20.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.930 seconds
+[2024-10-11T00:16:50.685+0000] {processor.py:186} INFO - Started process (PID=65009) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:16:50.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:16:50.692+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:16:50.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:16:51.499+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:16:51.534+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:16:51] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:16:51.559+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:16:51] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:16:51.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.909 seconds
+[2024-10-11T00:17:22.131+0000] {processor.py:186} INFO - Started process (PID=65022) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:17:22.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:17:22.136+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:17:22.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:17:22.927+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:17:22.961+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:17:22] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:17:22.987+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:17:22] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:17:23.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.889 seconds
+[2024-10-11T00:17:53.508+0000] {processor.py:186} INFO - Started process (PID=65034) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:17:53.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:17:53.514+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:17:53.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:17:54.276+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:17:54.310+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:17:54] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:17:54.339+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:17:54] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:17:54.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.863 seconds
+[2024-10-11T00:18:24.903+0000] {processor.py:186} INFO - Started process (PID=65047) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:18:24.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:18:24.909+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:18:24.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:18:25.673+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:18:25.708+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:18:25] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:18:25.736+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:18:25] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:18:25.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.866 seconds
+[2024-10-11T00:18:56.212+0000] {processor.py:186} INFO - Started process (PID=65059) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:18:56.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:18:56.218+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:18:56.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:18:56.989+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:18:57.023+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:18:57] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:18:57.049+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:18:57] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:18:57.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.872 seconds
+[2024-10-11T00:19:27.892+0000] {processor.py:186} INFO - Started process (PID=65071) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:19:27.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:19:27.899+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:19:27.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:19:28.675+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:19:28.709+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:19:28] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:19:28.738+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:19:28] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:19:28.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.879 seconds
+[2024-10-11T00:19:59.387+0000] {processor.py:186} INFO - Started process (PID=65083) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:19:59.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:19:59.414+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:19:59.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:20:01.653+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:20:01.756+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:20:01] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:20:01.832+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:20:01] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:20:01.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.564 seconds
+[2024-10-11T00:20:32.766+0000] {processor.py:186} INFO - Started process (PID=65096) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:20:32.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:20:32.790+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:20:32.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:20:35.751+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:20:35.810+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:20:35] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:20:35.858+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:20:35] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:20:35.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 3.208 seconds
+[2024-10-11T00:21:06.463+0000] {processor.py:186} INFO - Started process (PID=65108) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:21:06.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:21:06.491+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:21:06.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:21:08.688+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:21:08.804+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:21:08] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:21:08.889+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:21:08] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:21:08.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.548 seconds
+[2024-10-11T00:21:39.557+0000] {processor.py:186} INFO - Started process (PID=65120) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:21:39.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:21:39.564+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:21:39.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:21:40.698+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:21:40.745+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:21:40] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:21:40.785+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:21:40] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:21:40.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.273 seconds
+[2024-10-11T00:22:11.146+0000] {processor.py:186} INFO - Started process (PID=65138) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:22:11.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:22:11.153+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:22:11.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:22:12.317+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:22:12.366+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:22:12] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:22:12.410+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:22:12] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:22:12.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.325 seconds
+[2024-10-11T00:22:42.788+0000] {processor.py:186} INFO - Started process (PID=65150) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:22:42.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:22:42.796+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:22:42.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:22:43.955+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:22:44.006+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:22:44] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:22:44.045+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:22:44] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:22:44.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.317 seconds
+[2024-10-11T00:23:14.420+0000] {processor.py:186} INFO - Started process (PID=65162) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:23:14.422+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:23:14.427+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:23:14.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:23:15.857+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:23:15.910+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:23:15] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:23:15.952+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:23:15] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:23:15.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.573 seconds
+[2024-10-11T00:23:46.291+0000] {processor.py:186} INFO - Started process (PID=65174) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:23:46.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:23:46.297+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:23:46.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:23:47.394+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:23:47.452+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:23:47] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:23:47.497+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:23:47] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:23:47.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.252 seconds
+[2024-10-11T00:24:17.845+0000] {processor.py:186} INFO - Started process (PID=65185) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:24:17.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:24:17.851+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:24:17.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:24:19.002+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:24:19.054+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:24:19] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:24:19.096+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:24:19] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:24:19.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.288 seconds
+[2024-10-11T00:24:49.409+0000] {processor.py:186} INFO - Started process (PID=65197) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:24:49.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:24:49.418+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:24:49.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:24:50.612+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:24:50.659+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:24:50] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:24:50.698+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:24:50] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:24:50.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.335 seconds
+[2024-10-11T00:25:21.079+0000] {processor.py:186} INFO - Started process (PID=65209) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:25:21.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:25:21.086+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:25:21.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:25:22.263+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:25:22.312+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:25:22] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:25:22.350+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:25:22] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:25:22.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.308 seconds
+[2024-10-11T00:25:52.661+0000] {processor.py:186} INFO - Started process (PID=65221) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:25:52.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:25:52.667+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:25:52.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:25:53.841+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:25:53.892+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:25:53] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:25:53.923+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:25:53] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:25:53.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.298 seconds
+[2024-10-11T00:26:24.248+0000] {processor.py:186} INFO - Started process (PID=65232) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:26:24.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:26:24.255+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:26:24.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:26:25.451+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:26:25.500+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:26:25] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:26:25.540+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:26:25] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:26:25.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.333 seconds
+[2024-10-11T00:26:55.915+0000] {processor.py:186} INFO - Started process (PID=65244) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:26:55.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:26:55.929+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:26:55.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:26:57.465+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:26:57.516+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:26:57] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:26:57.555+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:26:57] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:26:57.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.707 seconds
+[2024-10-11T00:27:28.263+0000] {processor.py:186} INFO - Started process (PID=65256) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:27:28.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:27:28.284+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:27:28.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:27:30.530+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:27:30.588+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:27:30] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:27:30.629+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:27:30] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:27:30.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.488 seconds
+[2024-10-11T00:28:01.978+0000] {processor.py:186} INFO - Started process (PID=65270) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:28:01.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:28:01.986+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:28:01.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:28:03.848+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:28:03.902+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:28:03] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:28:03.943+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:28:03] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:28:03.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.008 seconds
+[2024-10-11T00:28:34.248+0000] {processor.py:186} INFO - Started process (PID=65282) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:28:34.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:28:34.255+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:28:34.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:28:35.135+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:28:35.171+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:28:35] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:28:35.199+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:28:35] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:28:35.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.988 seconds
+[2024-10-11T00:29:05.882+0000] {processor.py:186} INFO - Started process (PID=65295) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:29:05.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:29:05.887+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:29:05.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:29:06.662+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:29:06.698+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:29:06] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:29:06.727+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:29:06] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:29:06.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.878 seconds
+[2024-10-11T00:29:37.570+0000] {processor.py:186} INFO - Started process (PID=65307) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:29:37.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:29:37.583+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:29:37.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:29:38.485+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:29:38.520+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:29:38] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:29:38.547+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:29:38] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:29:38.570+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.031 seconds
+[2024-10-11T00:30:09.214+0000] {processor.py:186} INFO - Started process (PID=65319) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:30:09.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:30:09.227+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:30:09.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:30:10.821+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:30:10.876+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:30:10] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:30:10.918+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:30:10] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:30:10.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.768 seconds
+[2024-10-11T00:30:41.474+0000] {processor.py:186} INFO - Started process (PID=65331) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:30:41.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:30:41.480+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:30:41.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:30:42.227+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:30:42.261+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:30:42] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:30:42.289+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:30:42] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:30:42.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.848 seconds
+[2024-10-11T00:31:12.976+0000] {processor.py:186} INFO - Started process (PID=65349) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:31:12.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:31:12.982+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:31:12.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:31:13.784+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:31:13.821+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:31:13] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:31:13.848+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:31:13] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:31:13.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.904 seconds
+[2024-10-11T00:31:44.260+0000] {processor.py:186} INFO - Started process (PID=65361) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:31:44.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:31:44.266+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:31:44.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:31:45.010+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:31:45.044+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:31:45] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:31:45.080+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:31:45] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:31:45.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.852 seconds
+[2024-10-11T00:32:15.681+0000] {processor.py:186} INFO - Started process (PID=65373) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:32:15.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:32:15.689+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:32:15.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:32:16.473+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:32:16.507+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:32:16] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:32:16.534+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:32:16] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:32:16.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.888 seconds
+[2024-10-11T00:32:47.131+0000] {processor.py:186} INFO - Started process (PID=65385) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:32:47.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:32:47.136+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:32:47.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:32:47.879+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:32:47.917+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:32:47] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:32:47.943+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:32:47] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:32:47.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 0.841 seconds
+[2024-10-11T00:33:18.028+0000] {processor.py:186} INFO - Started process (PID=65397) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:33:18.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:33:18.037+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:33:18.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:33:19.123+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:33:19.158+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:33:19] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:33:19.183+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:33:19] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:33:19.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.191 seconds
+[2024-10-11T00:33:49.566+0000] {processor.py:186} INFO - Started process (PID=65408) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:33:49.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:33:49.573+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:33:49.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:33:50.704+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:33:50.752+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:33:50] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:33:50.796+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:33:50] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:33:50.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.273 seconds
+[2024-10-11T00:34:21.352+0000] {processor.py:186} INFO - Started process (PID=65420) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:34:21.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:34:21.365+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:34:21.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:34:22.593+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:34:22.642+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:34:22] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:34:22.682+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:34:22] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:34:22.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.373 seconds
+[2024-10-11T00:34:53.261+0000] {processor.py:186} INFO - Started process (PID=65432) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:34:53.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:34:53.277+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:34:53.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:34:55.638+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:34:55.746+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:34:55] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:34:55.794+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:34:55] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:34:55.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.608 seconds
+[2024-10-11T00:35:26.508+0000] {processor.py:186} INFO - Started process (PID=65444) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:35:26.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:35:26.515+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:35:26.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:35:28.508+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:35:28.605+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:35:28] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:35:28.672+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:35:28] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:35:28.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.236 seconds
+[2024-10-11T00:35:59.260+0000] {processor.py:186} INFO - Started process (PID=65457) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:35:59.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:35:59.269+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:35:59.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:36:00.392+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:36:00.444+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:36:00] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:36:00.485+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:36:00] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:36:00.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.271 seconds
+[2024-10-11T00:36:30.821+0000] {processor.py:186} INFO - Started process (PID=65469) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:36:30.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:36:30.828+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:36:30.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:36:31.978+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:36:32.046+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:36:32] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:36:32.105+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:36:32] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:36:32.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.327 seconds
+[2024-10-11T00:37:02.627+0000] {processor.py:186} INFO - Started process (PID=65481) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:37:02.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:37:02.634+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:37:02.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:37:03.830+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:37:03.883+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:37:03] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:37:03.915+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:37:03] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:37:03.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.326 seconds
+[2024-10-11T00:37:34.469+0000] {processor.py:186} INFO - Started process (PID=65493) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:37:34.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:37:34.476+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:37:34.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:37:35.661+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:37:35.711+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:37:35] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:37:35.751+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:37:35] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:37:35.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.330 seconds
+[2024-10-11T00:38:06.703+0000] {processor.py:186} INFO - Started process (PID=65504) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:38:06.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:38:06.711+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:38:06.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:38:07.856+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:38:07.938+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:38:07] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:38:07.979+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:38:07] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:38:08.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.315 seconds
+[2024-10-11T00:38:38.479+0000] {processor.py:186} INFO - Started process (PID=65516) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:38:38.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:38:38.486+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:38:38.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:38:39.641+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:38:39.699+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:38:39] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:38:39.745+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:38:39] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:38:39.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.311 seconds
+[2024-10-11T00:39:10.249+0000] {processor.py:186} INFO - Started process (PID=65528) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:39:10.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:39:10.257+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:39:10.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:39:11.414+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:39:11.462+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:39:11] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:39:11.501+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:39:11] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:39:11.531+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.297 seconds
+[2024-10-11T00:39:42.044+0000] {processor.py:186} INFO - Started process (PID=65540) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:39:42.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:39:42.057+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:39:42.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:39:43.970+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:39:44.019+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:39:44] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:39:44.069+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:39:44] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:39:44.099+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.069 seconds
+[2024-10-11T00:40:14.656+0000] {processor.py:186} INFO - Started process (PID=65557) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:40:14.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:40:14.676+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:40:14.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:40:16.925+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:40:16.996+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:40:16] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:40:17.064+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:40:17] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:40:17.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.517 seconds
+[2024-10-11T00:40:47.688+0000] {processor.py:186} INFO - Started process (PID=65569) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:40:47.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:40:47.695+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:40:47.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:40:49.298+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:40:49.370+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:40:49] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:40:49.410+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:40:49] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:40:49.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.781 seconds
+[2024-10-11T00:41:20.014+0000] {processor.py:186} INFO - Started process (PID=65581) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:41:20.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:41:20.022+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:41:20.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:41:21.110+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:41:21.175+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:41:21] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:41:21.213+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:41:21] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:41:21.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.240 seconds
+[2024-10-11T00:41:52.130+0000] {processor.py:186} INFO - Started process (PID=65595) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:41:52.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:41:52.138+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:41:52.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:41:53.234+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:41:53.268+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:41:53] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:41:53.294+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:41:53] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:41:53.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.205 seconds
+[2024-10-11T00:42:23.602+0000] {processor.py:186} INFO - Started process (PID=65606) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:42:23.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:42:23.609+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:42:23.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:42:24.778+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:42:24.831+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:42:24] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:42:24.872+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:42:24] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:42:24.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.312 seconds
+[2024-10-11T00:42:55.331+0000] {processor.py:186} INFO - Started process (PID=65618) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:42:55.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:42:55.348+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:42:55.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:42:57.751+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:42:57.916+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:42:57] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:42:57.961+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:42:57] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:42:57.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.692 seconds
+[2024-10-11T00:43:28.338+0000] {processor.py:186} INFO - Started process (PID=65630) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:43:28.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:43:28.351+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:43:28.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:43:30.819+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:43:30.955+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:43:30] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:43:31.067+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:43:31] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:43:31.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 2.812 seconds
+[2024-10-11T00:44:01.629+0000] {processor.py:186} INFO - Started process (PID=65642) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:44:01.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:44:01.638+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:44:01.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:44:02.760+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:44:02.811+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:44:02] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:44:02.850+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:44:02] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:44:02.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.267 seconds
+[2024-10-11T00:44:33.312+0000] {processor.py:186} INFO - Started process (PID=65654) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:44:33.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:44:33.320+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:44:33.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:44:34.444+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:44:34.493+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:44:34] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:44:34.534+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:44:34] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:44:34.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.267 seconds
+[2024-10-11T00:45:05.001+0000] {processor.py:186} INFO - Started process (PID=65666) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:45:05.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:45:05.008+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:45:05.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:45:06.200+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:45:06.249+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:45:06] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:45:06.289+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:45:06] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:45:06.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.337 seconds
+[2024-10-11T00:45:36.716+0000] {processor.py:186} INFO - Started process (PID=65678) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:45:36.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:45:36.723+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:45:36.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:45:37.854+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:45:37.933+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:45:37] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:45:37.974+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:45:37] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:45:38.002+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.301 seconds
+[2024-10-11T00:46:08.422+0000] {processor.py:186} INFO - Started process (PID=65690) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:46:08.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:46:08.440+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:46:08.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:46:09.580+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:46:09.631+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:46:09] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:46:09.672+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:46:09] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:46:09.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.337 seconds
+[2024-10-11T00:46:40.159+0000] {processor.py:186} INFO - Started process (PID=65702) to work on /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:46:40.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawl_to_kafka.py for tasks to queue
+[2024-10-11T00:46:40.165+0000] {logging_mixin.py:190} INFO - [2024-10-11T00:46:40.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:46:41.287+0000] {processor.py:925} INFO - DAG(s) 'crawl_to_kafka' retrieved from /opt/airflow/dags/crawl_to_kafka.py
+[2024-10-11T00:46:41.363+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:46:41] - airflow.models.dag - INFO      - bulk_write_to_db - line 3239 - Sync 1 DAGs
+[2024-10-11T00:46:41.403+0000] {logging_mixin.py:190} WARNING - [2024-10-11 00:46:41] - airflow.models.dag - INFO      - calculate_dagrun_date_fields - line 4180 - Setting next_dagrun for crawl_to_kafka to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-11T00:46:41.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawl_to_kafka.py took 1.286 seconds
