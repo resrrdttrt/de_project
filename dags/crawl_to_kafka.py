@@ -103,6 +103,7 @@ def crawl_to_kafka():
 
         producer.flush()
         print("Extracting successfully")
+        all_data.to_csv('output.csv', index=False) 
         return all_data
 
     @task()
