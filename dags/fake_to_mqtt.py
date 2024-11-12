@@ -44,7 +44,7 @@ default_args = {
 }
 
 with DAG(
-    'publish_stock_data_to_mqtt',
+    'fake_to_mqtt',
     default_args=default_args,
     description='Read stock data and publish to MQTT',
     schedule_interval='@daily',

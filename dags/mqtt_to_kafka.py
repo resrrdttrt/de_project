@@ -41,7 +41,7 @@ default_args = {
 }
 
 with DAG(
-    'subscribe_validate_produce',
+    'mqtt_to_kafka',
     default_args=default_args,
     description='Subscribe from MQTT, validate, and produce to Kafka',
     schedule_interval='@daily',
