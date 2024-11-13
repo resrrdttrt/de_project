@@ -19,7 +19,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../lib/stock'))
 import data as dt
 
 KAFKA_BROKER = '172.17.0.1:9092' 
-KAFKA_TOPIC = 'stock_data'
+KAFKA_TOPIC = 'stock_kafka_topic'
 
 @dag(
     default_args={

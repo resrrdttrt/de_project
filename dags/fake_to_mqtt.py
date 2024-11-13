@@ -1,60 +1,58 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.utils.dates import days_ago
+from datetime import datetime
+import pandas as pd
 import paho.mqtt.client as mqtt
-import json
+import random
+import os
+import time
 
 # Configuration Variables
-FILE_PATH = '/path/to/stock_data.csv'
-MQTT_BROKER = 'localhost'
-MQTT_TOPIC = 'stock_data_topic'
+DATA_FILE_PATH = '/opt/airflow/dataset/data_stock.csv'
+MQTT_BROKER = '172.17.0.1'
+MQTT_PORT = 1883
+MQTT_USER = 'res'
+MQTT_PASSWORD = '1'
+MQTT_TOPIC = 'stock_mqtt_topic'
+NUMBER_OF_MESSAGES = 100
 
 def publish_to_mqtt():
-    # Create MQTT client and connect
+    # Read the dataset
+    df = pd.read_csv(DATA_FILE_PATH)
+
+    # Establish MQTT connection
     client = mqtt.Client()
-    client.connect(MQTT_BROKER)
+    client.username_pw_set(MQTT_USER, MQTT_PASSWORD)
+    client.connect(MQTT_BROKER, MQTT_PORT, 60)
 
-    # Read stock data from file
-    with open(FILE_PATH, 'r') as file:
-        for line in file:
-            # Assuming CSV format: date,code,high,low,open,close,adjust,volume_match,value_match
-            fields = line.strip().split(',')
-            message = {
-                'date': fields[0],
-                'code': fields[1],
-                'high': float(fields[2]),
-                'low': float(fields[3]),
-                'open': float(fields[4]),
-                'close': float(fields[5]),
-                'adjust': float(fields[6]),
-                'volume_match': float(fields[7]),
-                'value_match': float(fields[8])
-            }
-            # Publish message to MQTT
-            client.publish(MQTT_TOPIC, json.dumps(message))
+    # Publish random messages
+    for _ in range(NUMBER_OF_MESSAGES):
+        # Select a random row index
+        random_index = random.randint(0, len(df) - 1)
+        message = df.iloc[random_index].to_json()
+        client.publish(MQTT_TOPIC, message)
+        # time.sleep(1)
 
+    
+    # Disconnect from MQTT broker
     client.disconnect()
 
 default_args = {
     'owner': 'airflow',
-    'depends_on_past': False,
-    'email_on_failure': False,
-    'email_on_retry': False,
-    'retries': 1,
+    'start_date': datetime(2023, 1, 1),
+    'retries': 0,
 }
 
-with DAG(
+dag = DAG(
     'fake_to_mqtt',
     default_args=default_args,
-    description='Read stock data and publish to MQTT',
-    schedule_interval='@daily',
-    start_date=days_ago(1),
-    catchup=False,
-) as dag:
+    schedule_interval=None,  # Adjust as needed
+)
 
-    publish_task = PythonOperator(
-        task_id='publish_to_mqtt',
-        python_callable=publish_to_mqtt,
-    )
+publish_task = PythonOperator(
+    task_id='publish_to_mqtt',
+    python_callable=publish_to_mqtt,
+    dag=dag,
+)
 
 publish_task

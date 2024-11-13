@@ -3,3 +3,5 @@
 
 # Ignore log files
 *.log
+
+*.cpython-310.pyc

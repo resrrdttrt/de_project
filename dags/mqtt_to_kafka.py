@@ -4,21 +4,36 @@ from airflow.utils.dates import days_ago
 import paho.mqtt.client as mqtt
 from kafka import KafkaProducer
 import json
+from datetime import datetime
 
 # Configuration Variables
-MQTT_BROKER = 'mqtt_broker_address'
-MQTT_TOPIC = 'stock_data_topic'
-KAFKA_BROKER = 'kafka_broker_address:9092'
-KAFKA_TOPIC = 'kafka_topic'
+MQTT_BROKER = '172.17.0.1'
+MQTT_PORT = 1883
+MQTT_USER = 'res'
+MQTT_PASSWORD = '1'
+MQTT_TOPIC = 'stock_mqtt_topic'
+KAFKA_BROKER = '172.17.0.1:9092'
+KAFKA_TOPIC = 'stock_kafka_topic'
 
 def on_message(client, userdata, msg):
-    producer = KafkaProducer(bootstrap_servers=KAFKA_BROKER, value_serializer=lambda v: json.dumps(v).encode('utf-8'))
+    producer = KafkaProducer(
+        bootstrap_servers=KAFKA_BROKER,
+        value_serializer=lambda v: json.dumps(v).encode('utf-8')
+    )
     try:
-        # Validate message
-        message = json.loads(msg.payload)
-        required_fields = ['date', 'code', 'high', 'low', 'open', 'close', 'adjust', 'volume_match', 'value_match']
-        if all(field in message for field in required_fields):
-            producer.send(KAFKA_TOPIC, message)
+        # Parse and transform message
+        row = json.loads(msg.payload.decode('utf-8'))
+        message = {
+            'date': str(datetime.strptime(row['date'], '%Y-%m-%d').date()),
+            'code': row['Name'],
+            'high': row['high'],
+            'low': row['low'],
+            'open': row['open'],
+            'close': row['close'],
+            'volume': row['volume']
+        }
+        producer.send(KAFKA_TOPIC, message)
+        print("Sent messages to Kafka")
     except Exception as e:
         print(f"Error processing message: {e}")
     finally:
@@ -27,10 +42,13 @@ def on_message(client, userdata, msg):
 
 def subscribe_and_produce():
     client = mqtt.Client()
+    client.username_pw_set(MQTT_USER, MQTT_PASSWORD)
     client.on_message = on_message
-    client.connect(MQTT_BROKER)
+    client.connect(MQTT_BROKER, MQTT_PORT, 60)
     client.subscribe(MQTT_TOPIC)
-    client.loop_forever()
+    client.loop_start()  # Run the loop in the background
+    while (True):
+        pass
 
 default_args = {
     'owner': 'airflow',
@@ -44,7 +62,7 @@ with DAG(
     'mqtt_to_kafka',
     default_args=default_args,
     description='Subscribe from MQTT, validate, and produce to Kafka',
-    schedule_interval='@daily',
+    schedule_interval= None,
     start_date=days_ago(1),
     catchup=False,
 ) as dag:

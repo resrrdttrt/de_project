@@ -7,7 +7,7 @@ default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': datetime(2023, 11, 1),
-    'retries': 1,
+    'retries': 0,
     'retry_delay': timedelta(minutes=5),
 }
 
@@ -16,7 +16,7 @@ with DAG(
     'spark_test_submit_standalone',
     default_args=default_args,
     description='A simple DAG to submit a Spark job using a connection ID',
-    schedule_interval=timedelta(days=1),
+    schedule_interval=None,
     catchup=False,
 ) as dag:
 
