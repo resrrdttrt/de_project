@@ -5,3 +5,4 @@
 *.log
 
 *.cpython-310.pyc
+logs/*

@@ -3,6 +3,7 @@ from airflow.utils.dates import days_ago
 from airflow import DAG
 from airflow.providers.amazon.aws.sensors.s3 import S3KeySensor
 
+# {"aws_access_key_id":"", "aws_secret_access_key":"", "endpoint_url":""}
 
 default_args = {
     'owner': 'airflow',

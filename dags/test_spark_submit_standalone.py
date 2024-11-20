@@ -23,7 +23,7 @@ with DAG(
     # Define the SparkSubmitOperator task using a connection ID
     submit_spark_job = SparkSubmitOperator(
         task_id='submit_spark_job',
-        application='/opt/airflow/spark_apps/job1.py',
+        application='/opt/airflow/spark_jobs/job1.py',
         conn_id='my_spark',  # Replace with your Spark connection ID
         name='my_spark_job',
         executor_memory='1g',  
