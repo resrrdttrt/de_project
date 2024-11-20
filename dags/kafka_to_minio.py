@@ -89,7 +89,7 @@ def kafka_to_minio():
     consume_and_upload_task = consume_and_store_to_minio(
         kafka_topic=KAFKA_TOPIC,  # Kafka topic
         minio_bucket=MINIO_BUCKET,   # MinIO bucket name
-        batch_size=10,             # Number of messages to process in one batch
+        batch_size=50,             # Number of messages to process in one batch
         batch_interval=10           # Maximum time between batches in seconds
     )
 
