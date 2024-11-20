@@ -1,20 +1,26 @@
 FROM apache/airflow:2.7.3
+
 USER root
 
-# Update package lists and fix missing packages
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends ca-certificates-java && \
-    apt-get install -y openjdk-11-jdk ant && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
-
-# Set JAVA_HOME
-ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-
-# Install Spark
 ENV SPARK_VERSION=3.5.3
-ENV SPARK_HOME=/opt/spark
-ENV PATH=$PATH:$SPARK_HOME/bin
+
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends \
+         openjdk-17-jre-headless \
+         procps \
+  && apt-get autoremove -yqq --purge \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*
+
+# RUN apt-get update \
+#   && apt-get install -y --no-install-recommends \
+#          default-jdk \
+#          procps \
+#          scala \
+#   && apt-get autoremove -yqq --purge \
+#   && apt-get clean \
+#   && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends wget && \
@@ -26,7 +32,12 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 USER airflow
-
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+RUN export JAVA_HOME
+ENV SPARK_HOME=/opt/spark
+RUN export SPARK_HOME
+ENV PATH=$PATH:$SPARK_HOME/bin
+RUN chown -R airflow: ${AIRFLOW_HOME}
 # Add requirements
 ADD requirements.txt .
 

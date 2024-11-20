@@ -25,3 +25,7 @@ urllib3
 apache-airflow-providers-apache-spark
 apache-airflow-providers-amazon
 paho-mqtt
+pandas
+s3fs
+pyarrow
+ydata_profiling

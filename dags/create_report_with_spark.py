@@ -99,17 +99,17 @@ with DAG('spark_create_report',
         packages='org.apache.hadoop:hadoop-aws:3.3.4'
     )
 
-    # Sensor to wait for the CSV file to be created in MinIO
-    wait_for_csv = S3KeySensor(
-        task_id='wait_for_csv',
-        bucket_name=MINIO_BUCKET,
-        bucket_key=f"stock_data_combined/{current_date}/_SUCCESS",  # Airflow execution date in 'YYYY-MM-DD' format
-        wildcard_match=True,
-        aws_conn_id='my_minio', 
-        mode='poke',
-        timeout=600,  
-        poke_interval=30, 
-    )
+    # # Sensor to wait for the CSV file to be created in MinIO
+    # wait_for_csv = S3KeySensor(
+    #     task_id='wait_for_csv',
+    #     bucket_name=MINIO_BUCKET,
+    #     bucket_key=f"stock_data_combined/{current_date}/_SUCCESS",  # Airflow execution date in 'YYYY-MM-DD' format
+    #     wildcard_match=True,
+    #     aws_conn_id='my_minio', 
+    #     mode='poke',
+    #     timeout=600,  
+    #     poke_interval=30, 
+    # )
 
     # Generate pandas profiling report
     create_report = PythonOperator(
@@ -119,4 +119,5 @@ with DAG('spark_create_report',
     )
 
     # Set the task
-    spark_submit_task >> wait_for_csv >> create_report
+    # spark_submit_task >> wait_for_csv >> create_report
+    spark_submit_task >> create_report
