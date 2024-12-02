@@ -1,7 +1,6 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, from_json, current_date
+from pyspark.sql.functions import col, from_json, current_date, to_date, lag, avg, date_format
 from pyspark.sql.types import StructType, StructField, StringType, FloatType, LongType
-from pyspark.sql import functions as F
 import os
 
 # Initialize Spark Session
@@ -22,7 +21,7 @@ MINIO_BUCKET = 'mybucket'
 
 # Define the schema for the incoming data
 message_schema = StructType([
-    StructField("date", StringType(), True),
+    # StructField("date", StringType(), True),
     StructField("code", StringType(), True),
     StructField("high", FloatType(), True),
     StructField("low", FloatType(), True),
@@ -51,22 +50,35 @@ validated_df = parsed_df.filter(
     (col("volume").isNotNull())
 )
 
-# Calculate stock index (for example, simple moving average)
-stock_index_df = validated_df.withColumn("average_price", 
-    (col("high") + col("low") + col("close")) / 3)
+# Calculate average price
+stock_index_df = validated_df.withColumn(
+    "average_price", (col("high") + col("low") + col("close")) / 3
+).withColumn(
+    "date", date_format(current_date(), 'dd-MM-yyyy')
+)
 
-# Get current date for the folder name
-current_date_str = spark.sql("SELECT date_format(current_date(), 'dd-MM-yyyy') AS current_date_string").collect()[0][0]
 
-# Write to MinIO
+# Write to MinIO with dynamic partitioning
 query = stock_index_df.writeStream \
     .outputMode("append") \
     .format("parquet") \
     .option("checkpointLocation", f"s3a://{MINIO_BUCKET}/stock_data/checkpoint") \
-    .option("path", f"s3a://{MINIO_BUCKET}/stock_data/{current_date_str}") \
+    .option("path", f"s3a://{MINIO_BUCKET}/stock_data/") \
+    .partitionBy("date") \
     .start()
 
+# Write to MinIO as CSV
+csv_query = stock_index_df.writeStream \
+    .outputMode("append") \
+    .format("csv") \
+    .option("checkpointLocation", f"s3a://{MINIO_BUCKET}/stock_data_csv/checkpoint") \
+    .option("path", f"s3a://{MINIO_BUCKET}/stock_data_csv/") \
+    .partitionBy("date") \
+    .start()
+
+# Await termination for both queries
 query.awaitTermination()
+csv_query.awaitTermination()
 
 # # Write to console
 # console_query = stock_index_df.writeStream \

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-spark-submit \
+nohup spark-submit \
 --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1,org.apache.hadoop:hadoop-aws:3.3.4 \
 --conf spark.hadoop.fs.s3a.access.key=kStHEgiS0L8wSMHBoOq6 \
 --conf spark.hadoop.fs.s3a.secret.key=6uiWCp2tkHVA7dicuXawjI2fyhX5PtEKJwECSFaV \

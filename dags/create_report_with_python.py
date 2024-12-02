@@ -12,7 +12,7 @@ MINIO_ENDPOINT = "172.17.0.1:9000"
 MINIO_ACCESS_KEY = "kStHEgiS0L8wSMHBoOq6"
 MINIO_SECRET_KEY = "6uiWCp2tkHVA7dicuXawjI2fyhX5PtEKJwECSFaV"
 MINIO_BUCKET = "mybucket"
-PARQUET_FOLDER_PATH = f"stock_data/{datetime.now().strftime('%d-%m-%Y')}"
+PARQUET_FOLDER_PATH = f"stock_data/date={datetime.now().strftime('%d-%m-%Y')}"
 REPORT_FILE_NAME = f"report_day_{datetime.now().strftime('%d-%m-%Y')}.html"
 REPORT_S3_PATH = f"{MINIO_BUCKET}/reports/{REPORT_FILE_NAME}" 
 
